@@ -1,0 +1,83 @@
+.logocss{
+  border-radius:100px;
+}
+
+body{
+    background-color: blue;
+    height: auto;
+    margin: 0;  
+}
+
+h4 {
+  color:green;
+  text-align: center;
+font-family: brush script MT;
+  font-size: 22px;
+}
+
+h2 {
+  color:green;
+  text-align: center;
+font-family: brush script MT;
+  font-size: 30px;
+}
+
+p {
+  font-family: ariel black;
+  font-size: 20px;
+  text-align: center;
+color:blue;
+}
+
+h3 {
+  color:red;
+  text-align: center;
+font-family: brush script MT;
+  font-size: 22px;
+}
+td {
+  color:red;
+  text-align: center;
+font-family: brush script MT;
+  font-size: 22px;
+}
+
+
+
+
+table{
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 45px;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+
+ul {
+  display: inline-block;
+  *display: inline;
+  zoom: 1
+}
+
+
+/* Zoom on Hover : https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+* {
+    box-sizing: border-box;
+  }
+  .zoom {
+    transition: transform .2s;
+    width: 257px;
+    height: 260px;
+    margin: 0 auto;
+    background-image: url("img/profilehtml.png");
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
